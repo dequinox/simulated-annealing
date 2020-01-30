@@ -19,3 +19,10 @@ Find the optimal traveling salesman path using SA for 30 most populated cities
 
 ### Findings
 
+We have applied simulated annealing to find the optimal path for traveling salesman problem of 30 russian cities. Below are the results for three defferent values of the annealing rate.
+
+The slow cooling rate gives optimal result and converges at a rather late time, it took few thousands of steps to reach an optimal path.
+
+For an annealing rate of middle value the convergence seems to be fast. Refer to figure
+
+It took 50+ steps for to converge to fast cooling rate.
